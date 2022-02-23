@@ -10,7 +10,7 @@ public class Circulo_JD extends FiguraGeometrica_JD {
 		super(tipoFigura);
 		radio = r;
 	}
-
+ 
 	@Override
 	public double area() {
 		return radio * radio * PI;
