@@ -21,5 +21,6 @@ public abstract class FiguraGeometrica_JD {
 	public void setTipoFigura(String tipoFigura) {
 		this.tipoFigura = tipoFigura;
 	}
+	
 
 }
