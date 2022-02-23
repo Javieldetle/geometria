@@ -1,12 +1,12 @@
 package geo.src;
 
 
-public class Circulo extends FiguraGeometrica {
+public class Circulo_JD extends FiguraGeometrica_JD {
 	private double radio;
 	//Constante pi
 	static final double PI = 3.1416;
 	
-	public Circulo(double r, String tipoFigura) {
+	public Circulo_JD(double r, String tipoFigura) {
 		super(tipoFigura);
 		radio = r;
 	}

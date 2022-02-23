@@ -1,11 +1,11 @@
 package geo.src;
 
 
-public abstract class FiguraGeometrica {
+public abstract class FiguraGeometrica_JD {
 
 	protected String tipoFigura;
 
-	public FiguraGeometrica(String tipoFigura) {
+	public FiguraGeometrica_JD(String tipoFigura) {
 		super();
 		this.tipoFigura = tipoFigura;
 	}
