@@ -16,7 +16,7 @@ public class Triangulo_JD extends FiguraGeometrica_JD {
 	@Override
 	public double perimetro() {
 		return lado1 + lado2 + lado3;
-	}
+	} 
 
 	@Override
 	public double area() { //Utiliza la formula de Her—ns
