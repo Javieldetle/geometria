@@ -21,11 +21,7 @@ public class Triangulo_JD extends FiguraGeometrica_JD {
 	@Override
 	public double area() { //Utiliza la formula de Her—ns
 		double sp;
-		sp = this.semiPerimetro();
+		sp = this.perimetro() / 2;
 		return Math.sqrt(sp * (sp-lado1) * (sp-lado2) * (sp-lado3));
-	}
-	
-	public double semiPerimetro() {
-		return this.perimetro() / 2;
 	}
 }
